@@ -1,8 +1,8 @@
 <?php
 
-define("DATABASE_URL", "pgsql:host=localhost;port=5432;dbname=db");
-define("DB_USER", "postgres");
-define("DB_PASSWORD", "ngoctrung166");
+define("DATABASE_URL", "mysql:host=localhost;port=3306;dbname=u729339732_mydb");
+define("DB_USER", "root");
+define("DB_PASSWORD", "ă");
 function getDbConnect(){
 
 	// Set options

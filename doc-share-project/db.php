@@ -7,10 +7,11 @@ PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 );
 // Create a new PDO instanace
 try {
-	$db = new PDO($dsn, 'u729339732_hajau', '12345678', $options);
+	$db = new PDO($dsn, 'root', '1', $options);
 }
 // Catch any errors
 catch (PDOException $e) {
+	echo '1'
 	echo $e->getMessage();
 	exit();
 }
